@@ -83,7 +83,7 @@ nav {
   list-style: none;
 }
 .nav-links a {
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--muted);
@@ -95,12 +95,12 @@ nav {
   color: var(--gold-dark);
 }
 .nav-cta {
-  background: var(--gold);
-  color: white;
+  background: var(--primary);
+  color: var(--dark);
   border: none;
   padding: 10px 24px;
-  font-family: "Jost", sans-serif;
-  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
@@ -108,7 +108,7 @@ nav {
   transition: background 0.3s;
 }
 .nav-cta:hover {
-  background: var(--gold-dark);
+  background: var(--secondary);
 }
 
 .hero {
@@ -147,10 +147,10 @@ nav {
   }
 }
 .hero-tag {
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--primary);
   margin-bottom: 1.5rem;
   font-weight: 500;
   display: flex;
@@ -178,12 +178,13 @@ nav {
   color: var(--gold-dark);
 }
 .hero-sub {
-  font-size: 15px;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
   color: var(--muted);
   line-height: 1.9;
   max-width: 500px;
   margin: 0 auto 3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 .btn-group {
   display: flex;
@@ -283,7 +284,7 @@ nav {
   background: rgba(184, 151, 90, 0.2);
 }
 .stat-num {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 3.5rem;
   font-weight: 300;
   color: var(--gold-light);
@@ -317,7 +318,7 @@ section {
   font-weight: 500;
 }
 .section-title {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 300;
   line-height: 1.2;
@@ -329,7 +330,8 @@ section {
   color: var(--gold-dark);
 }
 .section-text {
-  font-size: 15px;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
   color: var(--muted);
   line-height: 1.9;
   font-weight: 300;
@@ -370,7 +372,7 @@ section {
   transform: translateY(-4px);
 }
 .feature-num {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 3rem;
   font-weight: 300;
   color: var(--gold-light);
@@ -382,22 +384,23 @@ section {
   color: var(--gold);
 }
 .feature-card h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--dark);
   margin-bottom: 1rem;
 }
 .feature-card p {
-  font-size: 14px;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
   color: var(--muted);
   line-height: 1.8;
   font-weight: 300;
 }
 
 .demo {
-  background: var(--dark);
-  color: white;
+  background: white;
+  color: var(--dark);
 }
 .demo .section-label {
   color: var(--gold-light);
@@ -477,7 +480,7 @@ section {
   margin-bottom: 1rem;
 }
 .demo-thumb-name {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.6rem;
   font-weight: 300;
   color: white;
@@ -536,7 +539,7 @@ section {
   font-size: 1.5rem;
 }
 .step-num {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 5rem;
   font-weight: 300;
   color: var(--gold-light);
@@ -544,14 +547,15 @@ section {
   margin-bottom: 1rem;
 }
 .step h4 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.3rem;
   font-weight: 400;
   color: var(--dark);
   margin-bottom: 0.8rem;
 }
 .step p {
-  font-size: 13px;
+  font-family: "Crimson Text", serif;
+  font-size: 17px;
   color: var(--muted);
   line-height: 1.8;
   font-weight: 300;
@@ -596,14 +600,15 @@ section {
   white-space: nowrap;
 }
 .pricing-card h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: var(--dark);
   margin-bottom: 0.5rem;
 }
 .pricing-desc {
-  font-size: 13px;
+  font-family: "Crimson Text", serif;
+  font-size: 17px;
   color: var(--muted);
   font-weight: 300;
   margin-bottom: 1.5rem;
@@ -614,7 +619,7 @@ section {
   font-weight: 300;
   color: var(--gold-dark);
   margin-bottom: 2rem;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   display: flex;
   align-items: flex-start;
   gap: 4px;
@@ -632,7 +637,8 @@ section {
   gap: 0.8rem;
 }
 .pricing-list li {
-  font-size: 13px;
+  font-family: "Crimson Text", serif;
+  font-size: 17px;
   color: var(--muted);
   display: flex;
   align-items: center;
@@ -691,7 +697,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 2rem;
   font-style: italic;
   font-weight: 300;
@@ -725,7 +731,7 @@ section {
   background: rgba(184, 151, 90, 0.2);
 }
 .porto-name {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.2rem;
   font-weight: 400;
   color: var(--dark);
@@ -733,7 +739,8 @@ section {
   transition: color 0.3s;
 }
 .porto-event {
-  font-size: 11px;
+  font-family: "Crimson Text", serif;
+  font-size: 14px;
   color: var(--muted);
   letter-spacing: 1px;
   transition: color 0.3s;
@@ -775,7 +782,7 @@ section {
   font-size: 12px;
 }
 .testi-text {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.1rem;
   font-style: italic;
   color: var(--dark);
@@ -790,7 +797,8 @@ section {
   color: var(--gold);
 }
 .testi-loc {
-  font-size: 11px;
+  font-family: "Crimson Text", serif;
+  font-size: 14px;
   color: var(--muted);
   margin-top: 4px;
   font-weight: 300;
@@ -837,7 +845,8 @@ section {
   user-select: none;
 }
 .faq-a {
-  font-size: 14px;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
   color: var(--muted);
   line-height: 1.9;
   max-height: 0;
@@ -920,7 +929,7 @@ footer {
   text-align: center;
 }
 .footer-brand {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
