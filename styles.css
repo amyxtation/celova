@@ -67,11 +67,18 @@ nav {
   transition: all 0.3s;
 }
 .nav-brand {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: var(--dark);
-  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+.logo-img:hover {
+  transform: scale(1.05);
 }
 .nav-brand em {
   color: var(--gold);
